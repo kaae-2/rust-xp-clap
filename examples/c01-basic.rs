@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 
 use clap::{arg, command, value_parser, ArgAction, Command};
-use rust_xp_clap::error::Result;
+use xp_clap::error::Result;
 
 fn main() -> Result<()> {
     let matches = command!()
